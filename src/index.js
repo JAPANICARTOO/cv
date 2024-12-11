@@ -1,8 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token='7784315239:AAEUZgFgClNZf4XvJq8aIWLF1Rwz3AxYccU';
+
+env= require('./.env');
+
+const TOKEN=env.token;
+console.log(TOKEN)
 
 // Replace with your bot token
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(TOKEN, { polling: true });
 
 // channel username
 const channelMain = '@amaranfilm';
