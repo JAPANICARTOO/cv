@@ -7,7 +7,7 @@ const TOKEN="7784315239:AAEUZgFgClNZf4XvJq8aIWLF1Rwz3AxYccU";
 
 
 // Replace with your bot token
-const bot = new TelegramBot(TOKEN, { polling: true });
+const bot = new TelegramBot(7784315239:AAEUZgFgClNZf4XvJq8aIWLF1Rwz3AxYccU, { polling: true });
 
 // channel username
 const channelMain = '@amaranfilm';
