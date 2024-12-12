@@ -3,18 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 env= require('./.env');
 
 const TOKEN=env.token;
-console.log(TOKEN)const express = require('express');
 
-const bot = express();
-const port =  3000; // Use the assigned port or default to 3000
-
-bot.get('/', (req, res) => {
-    res.send('Hello from Render!');
-});
-
-bot.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
-});
 
 
 // Replace with your bot token
