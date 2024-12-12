@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 env= require('./.env');
 
-const TOKEN=env.token;
+const TOKEN="7784315239:AAEUZgFgClNZf4XvJq8aIWLF1Rwz3AxYccU";
 
 
 
